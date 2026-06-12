@@ -27,9 +27,14 @@ The program:
 
 ---
 
+## New features
+- Added a infinite loop for run the calculator forever
+- The user can now stop the calculator loop
+- Calculations are now more accurate after the addition of decimal numbers
+- Add comments in the main code
+
 ## Compile & Run
 
 ```bash
 clang calculator.c -o calculator -lcs50
-./calculator
-Note : For run and compile the code you're need `<cs50.h>` header file.  
+./calculator 
