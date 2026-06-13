@@ -36,5 +36,5 @@ The program:
 ## Compile & Run
 
 ```bash
-clang calculator.c -o calculator -lcs50
-./calculator 
+clang calc.c -o calc -lcs50
+./calc 
