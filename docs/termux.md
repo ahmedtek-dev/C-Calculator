@@ -1,6 +1,6 @@
-## Run the code in termux
+# Run the code in termux
 
-# Steps
+## Steps
 To run the calculator on termux use these steps:
 1. Install these tools using these commands
 
