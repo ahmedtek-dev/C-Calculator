@@ -27,14 +27,26 @@ The program:
 
 ---
 
-## New features
+## Features
+- Support all the basic calculations
 - Added a infinite loop for run the calculator forever
 - The user can now stop the calculator loop
 - Calculations are now more accurate after the addition of decimal numbers
 - Add comments in the main code
 
-## Compile & Run
+---
+
+## New Features - for v2.1
+- Calculations on decimal numbers are now much more accurate
+- The accurate of infinite loop are optimized
+- The code was cleared from any bugs for the developers
+
+---
+
+## Run the code
 
 ```bash
-clang calc.c -o calc -lcs50
-./calc 
+cd src #from the repository of calculator
+./calc
+```
+Note : You need cs50.h libary to run the code

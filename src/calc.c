@@ -5,10 +5,10 @@
 
 // Call functions
 
-float add (int num1 , int num2);
-float subtract (int num1 , int num2);
-float multiply (int num1 , int num2);
-float divide (int num1 , int num2);
+float add (float num1 , float num2);
+float subtract (float num1 , float num2);
+float multiply (float num1 , float num2);
+float divide (float num1 , float num2);
 
 // Main code
 
@@ -19,8 +19,8 @@ int main(void)
     {
         // First inputs
 
-        int input_number = get_int("Put First number:\n");
-        int second_input_number = get_int("Put Second number:\n");
+        float input_number = get_float("Put First number:\n");
+        float second_input_number = get_float("Put Second number:\n");
         char calculation = get_char("Choose a calculation:\n");
 
          // Outputs
@@ -71,23 +71,23 @@ int main(void)
 }
 // The calculation functions
 
-float add (int num1 , int num2)
+float add (float num1 , float num2)
 {
-    return num1 + num2;
+    return (float) num1 + num2;
 }
-float subtract (int num1 , int num2)
+float subtract (float num1 , float num2)
 {
-    return num1 - num2;
+    return (float) num1 - num2;
 }
-float multiply (int num1 , int num2)
+float multiply (float num1 , float num2)
 {
-    return num1 * num2;
+    return (float) num1 * num2;
 }
-float divide (int num1 , int num2)
+float divide (float num1 , float num2)
 {
     if (num2 != 0)
     {
-        return num1 / num2;
+        return (float) num1 / num2;
     }
     return 0;
 }
