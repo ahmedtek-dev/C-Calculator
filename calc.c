@@ -45,7 +45,7 @@ int main(void)
             }
             else
             {
-                printf("Error : Cannot divide the number with zero");
+                printf("Error : Cannot divide the number with zero\n");
             }
          }
            // Ask if the user want to continue or not
