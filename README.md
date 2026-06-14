@@ -44,9 +44,7 @@ The program:
 ---
 
 ## Run the code
-
-```bash
-cd src #from the repository of calculator
-./calc
-```
-Note : You need cs50.h libary to run the code
+For run the code follow the steps here:
+- If you are using linux : [Ubuntu / Linux Guide](docs/ubuntu.md).
+- If you are using termux (android) : [Termux (Android) Guide](docs/termux.md).
+- If you are using windows : [Windows (WSL) Guide](docs/windows.md)
