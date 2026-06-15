@@ -9,7 +9,7 @@ To use the calculator in ubuntu and the distros based on it  do these steps:
    sudo apt install git gcc make  -y
    ```
 
-2. After install the tools now install the `cs50.h` library using this commands
+2. After install the tools now install the `cs50.h` library using these commands
 
    ```bash
    git clone https://github.com/cs50/libcs50.git #clone library files
@@ -17,7 +17,7 @@ To use the calculator in ubuntu and the distros based on it  do these steps:
    sudo make install #install library
    ```
 
-3. Now download the calculator files using this commands
+3. Now download the calculator files using these commands
 
    ```bash
    git clone https://github.com/ahmedtek-dev/C-Calculator.git #clone calculator files
