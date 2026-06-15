@@ -29,22 +29,23 @@ The program:
 
 ## Features
 - Support all the basic calculations
-- Added a infinite loop for run the calculator forever
-- The user can now stop the calculator loop
-- Calculations are now more accurate after the addition of decimal numbers
+- Calculations on decimal numbers are much accurate
+- The code is clear from any bugs for the developers
+- There is an accurate and faster infinite loop for the program the user can stop it after calculation if he want
 - Add comments in the main code
 
 ---
 
-## New Features - for v2.1
-- Calculations on decimal numbers are now much more accurate
-- The accurate of infinite loop are optimized
-- The code was cleared from any bugs for the developers
+## New Features - for v2.2
+- Added the fedora guide for run the code in fedora linux distro
+- Fix the bugs in the code
+- Rebuild the functions for make a more accurate code
 
 ---
 
 ## Run the code
 For run the code follow the steps here:
-- If you are using linux : [Ubuntu / Linux Guide](docs/ubuntu.md).
+- If you are using ubuntu : [Ubuntu Guide](docs/ubuntu.md).
 - If you are using termux (android) : [Termux (Android) Guide](docs/termux.md).
+- If you are using fedora : [Fedora Guide](docs/fedora.md).
 - If you are using windows : [Windows (WSL) Guide](docs/windows.md)

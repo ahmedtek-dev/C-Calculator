@@ -24,7 +24,7 @@ int main(void)
         char calculation = get_char("Choose a calculation:\n");
 
          // Outputs
-
+         
          if (calculation == '+')
          {
             printf("The answer is : %.2f\n", add(input_number , second_input_number));
@@ -48,6 +48,11 @@ int main(void)
                 printf("Error : Cannot divide the number with zero\n");
             }
          }
+         else
+         {
+            printf("Error : Invailed Input\n");
+            continue;
+         }
            // Ask if the user want to continue or not
 
            conti = get_char("Do you want to continue?[Y/n] ");
@@ -66,6 +71,7 @@ int main(void)
                 printf("Error : Invalid input\n");
                 break;
             }
+            return 0;
     }
    
 }
@@ -73,21 +79,17 @@ int main(void)
 
 float add (float num1 , float num2)
 {
-    return (float) num1 + num2;
+    return num1 + num2;
 }
 float subtract (float num1 , float num2)
 {
-    return (float) num1 - num2;
+    return num1 - num2;
 }
 float multiply (float num1 , float num2)
 {
-    return (float) num1 * num2;
+    return num1 * num2;
 }
 float divide (float num1 , float num2)
 {
-    if (num2 != 0)
-    {
-        return (float) num1 / num2;
-    }
-    return 0;
+    return num1 / num2;
 }
