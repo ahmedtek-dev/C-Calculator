@@ -15,13 +15,15 @@ float divide (float num1 , float num2);
 int main(void)
 {
     char conti; 
-    while(true) // That's loop for the calculator running forever if the user didn't stop it
+    do 
     {
         // First inputs
+
 
         float input_number = get_float("Put First number:\n");
         float second_input_number = get_float("Put Second number:\n");
         char calculation = get_char("Choose a calculation:\n");
+
 
          // Outputs
          
@@ -55,6 +57,7 @@ int main(void)
          }
            // Ask if the user want to continue or not
 
+
            conti = get_char("Do you want to continue?[Y/n] ");
            if (conti == 'y' || conti == 'Y')
            {
@@ -73,7 +76,7 @@ int main(void)
             }
             return 0;
     }
-   
+    while(true);
 }
 // The calculation functions
 
