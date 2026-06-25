@@ -1,9 +1,9 @@
 // Include main C header files
 
-#include <cs50.h>
-#include <stdio.h>
+#include <cs50.h> // CS50 header file
+#include <stdio.h> // Standard I/O header file
 
-// Call functions
+// Prototype functions
 
 float add (float num1 , float num2);
 float subtract (float num1 , float num2);
@@ -59,16 +59,37 @@ int main(void)
 
 
            conti = get_char("Do you want to continue?[Y/n] ");
+
+           // if the user want to continue is use Y :
+
            if (conti == 'y' || conti == 'Y')
            {
                continue;
                
            }
+           
+           // if the user want to exit from the program is use N :
+
            else if (conti == 'n' || conti == 'N')
            {
                 
               break;
-            }
+           }
+
+           // if the user want to see debugging informations is use D :
+
+           else if (conti == 'd' || 'D')
+           {
+                printf("Debugging option opened:\n");
+                printf("[DEBUG] varibale \"input_number\" = %.2f\n", input_number);
+                printf("[DEBUG] varibale \"second_input_number\" = %.2f\n", second_input_number);
+                printf("[DEBUG] varibale \"calculation\" = %c\n", calculation);
+                printf("Debugging options closed\n");
+                break;
+           }
+
+           // if the user writed a wrong letter that's will happened : 
+
             else
             {
                 printf("Error : Invalid input\n");
@@ -76,23 +97,24 @@ int main(void)
             }
             return 0;
     }
-    while(true);
+    while(true); // Apply the loop
 }
 // The calculation functions
 
 float add (float num1 , float num2)
 {
-    return num1 + num2;
+    return num1 + num2; // Add function
 }
 float subtract (float num1 , float num2)
 {
-    return num1 - num2;
+    return num1 - num2; // Subtract function
 }
 float multiply (float num1 , float num2)
 {
-    return num1 * num2;
+    return num1 * num2; // Multiply function
 }
 float divide (float num1 , float num2)
 {
-    return num1 / num2;
+    return num1 / num2; // Divide function
 }
+

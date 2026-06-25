@@ -33,14 +33,12 @@ The program:
 - The code is clear from any bugs for the developers
 - There is an accurate and faster infinite loop for the program the user can stop it after calculation if he want
 - Add comments in the main code
-
+- Support a many linux distros
 ---
 
-## New Features - for v2.2
-- Added the fedora guide for run the code in fedora linux distro
-- Fix the bugs in the code
-- Rebuild the functions for make a more accurate code
-
+## New Features - for v2.3
+- Add debugging information to the program
+- Make the code more clean
 ---
 
 ## Run the code
