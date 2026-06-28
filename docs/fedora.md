@@ -5,7 +5,7 @@ To use the calculator in fedora linux do these steps:
 1. Install these tools from the terminal
 
    ```bash
-   sudo dnf update && sudo apt upgrade -y
+   sudo dnf update && sudo dnf upgrade -y
    sudo dnf install git gcc make  -y
    ```
 
